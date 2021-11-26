@@ -9,7 +9,6 @@ let a = 0;
 
 let counter = () => {
   a= a+1;
-  console.log(a);
   return a;
 }
 
