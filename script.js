@@ -4,10 +4,12 @@
 let sum = (a, b) => {
   console.log(a+b);
   return a+b;
-  
 }
 
-let counter = () => {
+let counter = (a) => {
+  a= a+1;
+  console.log(a);
+  return a;
 }
 
 let oddCounter = () => {
